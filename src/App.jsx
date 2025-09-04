@@ -6,6 +6,7 @@ import {getNewWord} from './words.js'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import clsx from "clsx";
+import Confetti from 'react-confetti'
 
 
 function App() {
@@ -113,6 +114,7 @@ useEffect(() => {
     <>
      <Header />
      <main>
+      {isGameWon && <Confetti />}
       <section className={gameOverStyling}>
 
        {wrongGuess && !isGameOver &&
