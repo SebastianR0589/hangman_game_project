@@ -43,6 +43,8 @@ useEffect(() => {
   )
 
 
+
+
   const rankElements = ranks.map((rank, index) => {
     const styles = {
       backgroundColor: rank.backgroundColor,
@@ -57,7 +59,19 @@ useEffect(() => {
     return <span className={className} key={rank.name} style={styles}>{rank.name}</span>
   })
 
-    const currentWordArray = currentWord.split("").map((letter, index) => (<span key={index} className="letter-guess">{isGameLost || guessedLetters.includes(letter) ? letter.toUpperCase() : ""}</span>))
+    const currentWordArray = currentWord.split("").map((letter, index) => {
+  const wordRevealStyling = clsx(
+    "letter-guess",
+    {
+      missed:  isGameLost && !guessedLetters.includes(letter),
+      hit: guessedLetters.includes(letter)
+    }
+  )
+
+      return (<span key={index} className={wordRevealStyling}>{isGameLost || guessedLetters.includes(letter) ? letter.toUpperCase() : ""}</span>)})
+
+
+
 
     const alphabetArray = alphabet.split("").map((letter) =>
     

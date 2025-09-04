@@ -127,6 +127,16 @@ span.ranks.lost::before {
     border-bottom: 1px solid #F9F4DA;
 }
 
+.letter-guess.missed {
+    color: #EC5D49;
+    border-bottom: 1px solid #EC5D49;
+}
+
+.letter-guess.hit {
+    color: #10A95B;
+    border-bottom: 1px solid #10A95B;
+}
+
 .keyboard {
   display: flex;
     flex-wrap: wrap;
