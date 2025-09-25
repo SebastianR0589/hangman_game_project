@@ -12,7 +12,7 @@ This app generates a game of Hangman. The basic principal of the game is to gues
 **GitHub Repo:** [Link to repo](https://github.com/SebastianR0589/hangman_game_project)
 
 **Screenshots:**
-![Screenshot 1](./screenshots/new_game.PNG)
+![Screenshot 1](./src/screenshots/new_game.PNG)
 ![Screenshot 2](./screenshots/active_game.PNG)
 ![Screenshot 3](./screenshots/lost_game.PNG)
 ![Screenshot 3](./screenshots/won_game.PNG)
