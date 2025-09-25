@@ -4,7 +4,7 @@ Welcome to my portfolio! Here you'll find some of the web projects I've built.
 
 ---
 
-### 1. Hangman Game
+###Hangman Game
 **Description:**  
 This app generates a game of Hangman. The basic principal of the game is to guess the hidden word with as few guesses as possible. The user can click different letter buttons so check if the button is included in the hidden word. The user will get feedback if he hit or missed a letter. The game is lost if too many wrong letters were guessed. The game is won if the user guesses the correct hidden word.
 
