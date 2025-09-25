@@ -13,9 +13,9 @@ This app generates a game of Hangman. The basic principal of the game is to gues
 
 **Screenshots:**
 ![Screenshot 1](./src/screenshots/new_game.PNG)
-![Screenshot 2](./screenshots/active_game.PNG)
-![Screenshot 3](./screenshots/lost_game.PNG)
-![Screenshot 3](./screenshots/won_game.PNG)
+![Screenshot 2](./src/screenshots/active_game.PNG)
+![Screenshot 3](./src/screenshots/lost_game.PNG)
+![Screenshot 3](./src/screenshots/won_game.PNG)
 
 **Features:**
 - Generate a new hidden word
