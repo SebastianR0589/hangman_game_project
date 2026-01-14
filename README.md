@@ -1,26 +1,44 @@
 # Sebastian Riedel Portfolio
+# Hangman Game
 
-Welcome to my portfolio! Here you'll find some of the web projects I've built.
+This project is a React-based interactive game inspired by the classic Hangman game. The goal is to guess the hidden word with as few attempts as possible. Players select letters, receive instant feedback if the letter is correct or incorrect, and aim to reveal the entire word before reaching the maximum number of wrong guesses.
+
+The application demonstrates state management, component-based architecture, conditional rendering, and user feedback handling in a React environment.
 
 ---
 
-### Hangman Game
-**Description:**  
-This app generates a game of Hangman. The basic principal of the game is to guess the hidden word with as few guesses as possible. The user can click different letter buttons so check if the button is included in the hidden word. The user will get feedback if he hit or missed a letter. The game is lost if too many wrong letters were guessed. The game is won if the user guesses the correct hidden word.
+## Project Goals
+- Practice React state management and dynamic UI updates  
+- Implement interactive components and conditional rendering  
+- Provide user feedback through animations and UI changes  
+- Explore component reusability and clean project structure  
 
+---
 
-**GitHub Repo:** [Link to repo](https://github.com/SebastianR0589/hangman_game_project)
+## Features
+- Generate a new random hidden word for each game  
+- Interactive letter selection with immediate feedback  
+- Track correct and incorrect guesses  
+- Display win or loss feedback, enhanced with animations (react-confetti)  
+- Clean and responsive UI design  
 
-**Screenshots:**
-![Screenshot 1](./src/screenshots/new_game.PNG)
-![Screenshot 2](./src/screenshots/active_game.PNG)
-![Screenshot 3](./src/screenshots/lost_game.PNG)
-![Screenshot 4](./src/screenshots/won_game.PNG)
+---
 
-**Features:**
-- Generate a new hidden word
-- Interactively let the user guess the hidden word
-- Gives feedback if the game was won or lost
+## Tech Stack
+- React  
+- JavaScript / TypeScript (depending on your implementation)  
+- react-confetti  
+- clsx for conditional class management  
 
-**Tech Stack:**  
-React, react-confetti, clsx
+---
+
+## Screenshots
+![New Game](./src/screenshots/new_game.PNG)
+![Active Game](./src/screenshots/active_game.PNG)
+![Lost Game](./src/screenshots/lost_game.PNG)
+![Won Game](./src/screenshots/won_game.PNG)
+
+---
+
+## Repository
+GitHub Repository: [Link to repo](https://github.com/SebastianR0589/hangman_game_project)
